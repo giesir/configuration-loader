@@ -33,7 +33,7 @@ ConfigurationLoader.prototype.set = function set(path, value) {
 function loadConfigurations(configDirectory, callback) {
     var self = this;
 
-    glob(path.resolve(configDirectory, './env/' + self.env + '/*.js'), function (err, configs) {
+    glob(path.resolve(configDirectory, './' + self.env + '/*.js'), function (err, configs) {
         if (err) {
             debug(err);
             callback(err);
