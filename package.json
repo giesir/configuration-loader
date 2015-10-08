@@ -23,6 +23,11 @@
   "bugs": {
     "url": "https://github.com/giesir/configuration-loader/issues"
   },
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
   "dependencies": {
     "debug": "^2.2.0",
     "glob": "^5.0.15",
