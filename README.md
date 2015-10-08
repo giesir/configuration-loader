@@ -20,7 +20,7 @@ Accepts an optional `environment` identifier (defaults to `development` if not s
 Loads the configuration files found at the specified _fully-qualified_ `directory`.
 Accepts a `callback(err)` function which is called when all configurations for the specified environment have been loaded, or an error occurs.
 
-The configuration files should be placed _under a subdirectory_ (named after `process.env.NODE_ENV` or `environment`) of `directory` (refer to [examples](#Examples)).
+The configuration files should be placed _under a subdirectory_ (named after `process.env.NODE_ENV` or `environment`) of `directory` (refer to [examples](#examples)).
 
 ### config.get(path)
 
@@ -103,4 +103,4 @@ To enable debugging output, use `DEBUG=icybit:config` when starting Your applica
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE.md)
