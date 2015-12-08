@@ -14,7 +14,7 @@ function ConfigurationLoader(env) {
 
     self.env = env || 'development';
     self.config = {};
-};
+}
 
 ConfigurationLoader.prototype.ConfigurationLoader = ConfigurationLoader;
 
@@ -55,6 +55,6 @@ function loadConfigurations(configDirectory, callback) {
             callback(null);
         }
     });
-};
+}
 
 module.exports = new ConfigurationLoader(process.env.NODE_ENV);
