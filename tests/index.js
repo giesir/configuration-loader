@@ -1,4 +1,6 @@
-﻿var test = require('tape'),
+﻿'use strict';
+
+var test = require('tape'),
     path = require('path'),
     configurationLoader = require('../index');
 
